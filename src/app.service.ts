@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getGoodbye(): string {
-    return 'Good Bye!!!';
+    return 'Good Bye!';
   }
 }
