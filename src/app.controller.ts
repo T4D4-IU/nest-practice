@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return this.appService.getHello();
+    return this.appService.getHello(); // GET/でAppServiceクラス(app.service.ts)に記述されたgetHelloメソッドが実行される
   }
 }

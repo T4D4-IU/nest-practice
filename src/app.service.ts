@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getHello(): string { //GET/(app.controller.tsに書かれている)で、コレが実行される
+    return 'Hello World!!!';
   }
 }
